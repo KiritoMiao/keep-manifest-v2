@@ -23,10 +23,10 @@ You can execute following command to enable or disable Manifest V2 on Linux.
 
 ```
 # Enable
-curl https://raw.githubusercontent.com/KiritoMiao/keep-manifest-v2/main/Linux/enable.sh | bash
+curl https://raw.githubusercontent.com/KiritoMiao/keep-manifest-v2/main/Linux/enable.sh | sudo bash
 
 # Disable
-curl https://raw.githubusercontent.com/KiritoMiao/keep-manifest-v2/main/Linux/disable.sh | bash
+curl https://raw.githubusercontent.com/KiritoMiao/keep-manifest-v2/main/Linux/disable.sh | sudo bash
 ```
 
 
