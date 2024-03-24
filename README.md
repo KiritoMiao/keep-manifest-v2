@@ -11,6 +11,25 @@ To enable Manifest V2, download and import the [Enable_ManifestV2.reg file](http
 
 If you want only apply this policy to Chrome or Edge, you can download seperate .reg file from [/Windows](https://github.com/KiritoMiao/keep-manifest-v2/tree/main/Windows)
 
+## Linux
+
+To enable Manifest V2 in Linux, we need put a policy json in specific location.
+```
+Google Chrome: /etc/opt/chrome/policies/managed
+Microsoft Edge: /etc/opt/edge/policies/managed
+```
+
+You can execute following command to enable or disable Manifest V2 on Linux.
+
+```
+# Enable
+curl https://raw.githubusercontent.com/KiritoMiao/keep-manifest-v2/main/Linux/enable.sh | bash
+
+# Disable
+curl https://raw.githubusercontent.com/KiritoMiao/keep-manifest-v2/main/Linux/disable.sh | bash
+```
+
+
 ## Verifying the Policy
 
 To check the currently enabled policies, visit [chrome://policy](chrome://policy) or [edge://policy](edge://policy) in your browser.
