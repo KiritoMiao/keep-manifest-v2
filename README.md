@@ -17,6 +17,7 @@ To enable Manifest V2 in Linux, we need put a policy json in specific location.
 ```
 Google Chrome: /etc/opt/chrome/policies/managed
 Microsoft Edge: /etc/opt/edge/policies/managed
+Chromium (Debian): /etc/chromium/policies/managed
 ```
 
 You can execute following command to enable or disable Manifest V2 on Linux.
